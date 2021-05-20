@@ -1,0 +1,210 @@
+/* Geral */
+
+body{
+	font-family: 'Lucida Sans', Arial, Sans-Serif;
+	background-color: #B0C4DE;
+	color: ;
+	margin: 0;
+}
+
+
+/* Header  */
+
+#MarcaPagina{
+	font-family: "Dancing Script", Sans-Serif;
+	font-size: 3em;
+	text-align: center;
+	font-weight: lighter;
+	z-index: 100;
+	position: fixed;
+	right: 50px;
+	top: 1%;
+	margin-top: 15px;
+	color: white;
+
+}
+
+
+/* Menu  */
+
+.navegacao{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 80px;
+	background-color: #1E90FF;
+}
+
+.nav-lista{
+	margin-left: 400px;
+}
+
+.nav-lista-item{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Arial, Tahoma, Sans-Serif;
+	padding: 12px;
+}
+
+.nav-link{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.nav-link:hover{
+	color: #FF4500
+}
+#logo{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 2%;
+	left: 15px;
+	z-index: 80;
+	margin: 0;
+}
+
+#imagem-home{
+	width: 30%;
+	height: 50%;
+	margin-top: 15%;
+}
+
+/* seção - Conteúdo  */
+
+.secao-body{
+	background-image: url("https://www.publicdomainpictures.net/pictures/250000/velka/dog-cartoon-cute-background.jpg");
+	background-size: 40%;
+}
+
+.paragrafo-secao{
+	
+	text-align: justify;
+}
+
+#titulo-Empresa,#tituloMissao{
+	
+	font-size: x-large;
+	font-style: oblique;
+	text-align: justify;
+	text-align: center;
+}
+
+/* Footer */
+
+.footer{
+	position: relative;
+	padding: 30px;
+}
+.footer-sessao{
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	width: 32%;
+	min-width: 250px;
+}
+
+#copyriht{
+	position: relative;
+	bottom:0;
+	font-size: small;
+}
+
+
+/* Pagina Fotos */
+
+.fotos{
+	margin: 40px;
+	border-style: double;
+	border-color: #0079d0; 
+	width:  450px;
+}
+
+span{
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+
+.fotos-cachorro{
+	text-align: center;
+	padding-top: 5em;
+}
+.demais-fotos{
+	text-align: center;
+	overflow: auto;
+	width: 50%;
+	height: 400px;
+	background-color: #DEB887;
+	margin-top: 2em;
+	margin-left: 25em;
+
+}
+
+.titulo{
+	margin-top: 5em;
+	text-align: center;
+	font-family: Apple Chancery, cursive;
+	font-size: 40px;
+
+}
+
+
+/* Pagina Contatos */
+
+fieldset{
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 200px;
+}
+
+legend{
+	font-size: 30px;	
+}
+
+input,textarea,select{
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2) 
+	font-size: 15px;
+	padding: 10px;
+	margin: 8px;
+	box-sizing: border-box;
+}
+
+label{
+	font-size: 18px;
+}
+
+input:focus,textarea:focus,select:focus{
+	background: #FFC;
+}
+
+input[type=text]{
+	background-image: url('fotos/lupa_.png');
+	background-position: 10px 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	padding-left: 40px; 
+}
+
+input[type='submit'],input[type='reset']{
+	font-size: 1.5em;
+	background-color: gray;
+	border: 0;
+	border-radius: 8px;
+	color: #FFF;
+	padding: 0.2em 0.6em;
+	box-shadow: 2px 2px 2px red;
+}
+
+input[type='submit']:hover,input[type='reset']:hover{
+	background-color: rgb(34,158,180);
+}
+
+select,input[type='checkbox'],input[type='radio']{
+	cursor: pointer;
+}
