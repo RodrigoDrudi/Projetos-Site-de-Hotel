@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <title>PetShop</title>
+    <link href="hotel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Dancing Script">
+</head>
+<body>
+<!-- Cabeçalho -->
+
+<header>
+    <h2 id="MarcaPagina">Contatos</h2>
+<!-- MENU -->
+
+    <nav class="navegacao">
+    	<ul class="nav-lista" >
+        	<li class="nav-lista-item" >
+
+            	<a class="nav-link" href="index.html"> HOME</a> 
+        	</li>
+
+        	<li class="nav-lista-item">
+            	<a class="nav-link" href="fotos.html"> Fotos</a> 
+        	</li>
+
+        	<li class="nav-lista-item">
+            	<a  class="nav-link" href="contatos.html">Contatos</a> 
+        	</li>
+
+    	</ul>
+    </nav>
+
+     <a href="index.html"><img id="logo" src="fotos/logo.png"> </a>
+
+</header>
+
+
+<form action="xx" method="post">
+    <fieldset>
+        <legend>Contato</legend>
+        <label for="nome"> Nome: </label>
+        <input type="text" name="Nome" id="nome" size= "50px" required placeholder="Nome Completo">
+<br>
+        <label for="dataNascimento"> Data Nasc: </label>
+        <input type="date" name="dataNascimento" id="dataNascimento" placeholder="DD/MM/AA">
+<br>
+        <label for="sexo">Sexo do Animal</label>
+        <input type="radio" name="sexo" value="F" id="sexoFeminino"> <label for="sexoFeminino">Feminino</label>
+        <input type="radio" name="sexo" value="M" id="sexoMasculino"> <label for="sexoMasculino">Masculino</label>
+<br>
+        <label for="Contato"> Contato: </label>
+        <input type="checkbox" name="telefone" id="telefone"><label for="telefone">Telefone</label>
+        <input type="checkbox" name="e-mail" id="e-mail"><label for="e-mail">E-mail</label>
+        <input type="text" name="Contato" id="contato" size="30px">
+       <br>
+       <label for="foto"> Foto do Pet </label>
+       <input type="file" name="foto" id="foto"> 
+      <br>
+      <br>
+      <label for="interesse"> Interesse</label>
+      <select name = "interesse" id="interesse">
+      	<option value="banho"> Banho</option>
+      	<option value="Hospedagem"> Hospedagem</option>
+      	<option value="OutrosAssuntos"> Outros Assuntos</option>
+      </select>
+<br>
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+<br>
+<br>
+	<input type="submit" name="btnEnvio" value="Enviar">
+	&nbsp;&nbsp;
+	<input type="reset" name="btnReset" value="reset">
+
+    </fieldset>
+  </form>
+
+<footer class="footer">
+    <section class="footer-sessao">
+        <h3> contato</h3>
+        <p>(xx) xxxx-xxxx</p>
+        <p>email@gmail</p>
+    </section>
+    <section class="footer-sessao">
+        <h3>endereço</h3>
+        <p>avenida xxx</p>
+        <p>São Paulo</p>
+    </section>
+    <section class="footer-sessao">
+        <h3>Funcionamento</h3>
+        <p>Dias da Semana</p>
+        <p>Horario</p>
+    </section>
+    <p> Copyrigth &copy; 2021. Rodrigo Drudi</p>
+</footer>
+
+
+
+
+
+</body>
+</html>
